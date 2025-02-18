@@ -1,20 +1,38 @@
 body {
+overflow: hidden;
+background-color: rgb(152, 238, 238);
+width: 100vw;
+height: 100vh;
 margin: 0px;
 }
-.container{height: 100vh;
-    width: 100vh;
-
+.container{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row ; 
+    align-items: center;
+    display: flex;
 
 }
 .content-A{
-    height:  60vh;
-    width: 30vw;
-background-color: rgb(211, 20, 20);
--ms-flex-align: center;
-justify-content: center;
-flex-direction: row;
-align-items: center;
-display: flex;
-    
+    height:  80%;
+    width: 20%;
+    background-color: rgb(32, 190, 218);
+    border-radius: 1rem 0rem 0rem 1rem;
 
+}
+.content-B{
+    height: 80%;
+    width: 30%;
+    background-color: blue;
+    border-radius: 0rem 1rem 1rem 0rem;
+}
+.content-button{
+
+}
+.button-enter{
+
+}
+.button-passaword{
+    
 }
