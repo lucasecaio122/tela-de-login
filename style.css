@@ -1,9 +1,10 @@
 body {
 overflow: hidden;
-background-color: rgb(152, 238, 238);
+background-color: rgb(49, 184, 184);
 width: 100vw;
 height: 100vh;
 margin: 0px;
+font-family: "roboto";
 }
 .container{
     height: 100%;
@@ -17,22 +18,67 @@ margin: 0px;
 .content-A{
     height:  80%;
     width: 20%;
-    background-color: rgb(32, 190, 218);
+    background-color: rgb(114, 78, 44);
     border-radius: 1rem 0rem 0rem 1rem;
-
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+gap: 4rem;
 }
 .content-B{
     height: 80%;
     width: 30%;
-    background-color: blue;
+    background-color: rgb(40, 36, 94);
     border-radius: 0rem 1rem 1rem 0rem;
 }
 .content-button{
-
+    display: flex;
+    flex-direction: column;
+ align-items: center;
+ gap: 16px;
+ 
 }
 .button-enter{
-
+    background: transparent;
+    color: #fff;
+    padding: 0.5rem 3rem;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 2rem 2rem 2rem 2rem;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+  
 }
 .button-passaword{
+    background-color:transparent;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 300;
+    color: #fff;
     
+}
+.content-menssage{  display: flex;
+    flex-direction: column;
+ align-items: center;
+ 
+ justify-content: center;
+
+}
+.title {
+    font-weight: 600;
+font-size: 2rem;
+color: #fff;
+}
+.sub-title{  font-weight: 3rem;
+    font-size: 1rem;
+    color: #fff;
+
+}
+.img {
+   width: auto;
+   height: 100px;
 }
